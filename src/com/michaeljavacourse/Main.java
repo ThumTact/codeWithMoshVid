@@ -53,7 +53,6 @@ public class Main {
                 continue;
             }
         }
-        //convert to the variables I actually need, monthly rate and months total
         double numerator = monthlyRate * Math.pow((1 + monthlyRate), months);
         double denominator = Math.pow((1 + monthlyRate), months) - 1;
         double rateMonthFrac = numerator / denominator;
